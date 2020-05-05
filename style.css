@@ -1,47 +1,29 @@
   
-.nav {
-    color: teal;
-  }
   
   body {
     background-color: silver;
   }
   
   nav {
-    background-color: white;
+    background-color: teal;
   }
   
   .col-md-12 {
     background-color: white;
   }
   
-  input {
-    background-color: teal;
-    color: white;
-    font-size: 30px;
-  }
-  
-
-  .primary {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid palegoldenrod;
-  }
-  
   
   h2 {
     color: teal;
-    font-style: bold;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   table {
     border-collapse: collapse;
     width: 100%;
   }
-  .table-scroll {
-  height: 400px;
-    overflow-y: scroll;
-  }
+ 
   
   td, th {
     border: 1px solid white;
@@ -50,7 +32,7 @@
   }
   
   tr:nth-child(even) {
-    background-color:silver;
+    background-color:paleturquoise;
   }
   
   tr:nth-child(odd){
@@ -61,7 +43,4 @@
     padding-left: 50px;
   }
   
-  .navbar-brand {
-    background-color: teal;
-    padding: 10px;
-  }
+
