@@ -1,10 +1,10 @@
   
 .nav {
-    color: turquoise;
+    color: teal;
   }
   
   body {
-    background-color: lightgray;
+    background-color: silver;
   }
   
   nav {
@@ -16,35 +16,27 @@
   }
   
   input {
-    background-color: turquoise;
+    background-color: teal;
     color: white;
     font-size: 30px;
   }
   
-  .responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border: 2px solid black;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
+
   .primary {
     max-width: 100%;
     height: auto;
-    border: 2px solid lightgreen;
+    border: 2px solid palegoldenrod;
   }
   
   .caption {
     font-size: 24px;
-    color: turquoise;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: teal;
+    font-family: 'fantasy';
     text-align: center;
   }
   
   h2 {
-    color: turquoise;
+    color: teal;
     font-style: bold;
   }
   
@@ -53,7 +45,7 @@
     width: 100%;
   }
   .table-scroll {
-  height: 400px !important;
+  height: 400px;
     overflow-y: scroll;
   }
   
@@ -64,7 +56,7 @@
   }
   
   tr:nth-child(even) {
-    background-color:lightgray;
+    background-color:silver;
   }
   
   tr:nth-child(odd){
@@ -76,22 +68,6 @@
   }
   
   .navbar-brand {
-    background-color: turquoise;
+    background-color: teal;
     padding: 10px;
-  }
-    
-    @media (max-width: 480px) {
-      .navbar li {
-        padding: 10px;
-      }
-      .box {
-        margin-right: 20px;
-        margin-left: 20px;
-      }
-      .navbar ul {
-        visibility: hidden;
-      }
-      #nav-select {
-        visibility: visible;
-      }
   }
